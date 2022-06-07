@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <title>CBD Malo</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> CBD Malo
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Accueil</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Qui sommes-nous</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Nos Produits</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#partner" class="nav__link">Partenaires</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Votre boutique <br> de CBD malouine
+                        </h1>
+                        <p class="home__description">
+                            Spécialiste du CBD depuis 2022
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explorer <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Suivez-nous</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Qui sommes-nous vraiment & <br> pourquoi nous choisir
+                        </h2>
+
+                        <p class="about__description">
+                            Spécialiste du CBD, nous avons sélectionné les meilleurs produits à base de chanvre
+                             pour vous proposer une expérience récréative optimale et améliorer votre bien-être au 
+                             quotidien en toute légalité.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Testé en laboratoire.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Service client à l'écoute.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Livraison offerte dès 30€ d'achat.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Paiement sécurisé.
+                            </p>
+                        </div>
+
+                    </div>                    
+                </div>
+
+                <section class="equipe section container">
+                    <div class="equipe__bg">
+                        <h2 class="section__title-center equipe__title">
+                            Notre équipe !
+                        </h2>
+    
+                        <div class="equipe__container grid">
+                            <div class="equipe__card">
+                                <div class="equipe__card-number">M. Gatel</div>
+                                <h3 class="equipe__card-title">Dirigeant</h3>
+                                <!--<p class="equipe__card-description">
+                                    We have several varieties plants you can choose from.
+                                </p> -->
+                            </div>
+    
+                            <div class="equipe__card">
+                                <div class="equipe__card-number">M. Menguy</div>
+                                <h3 class="equipe__card-title">Dirigeant</h3>
+                            </div>
+    
+                            <div class="equipe__card">
+                                <div class="equipe__card-number">Godier Théo</div>
+                                <h3 class="equipe__card-title">Equipe de communication</h3>
+                            </div>
+    
+                            <div class="equipe__card">
+                                <div class="equipe__card-number">Lemoine Hugo</div>
+                                <h3 class="equipe__card-title">Equipe de communication</h3>
+                            </div>
+    
+                            <div class="equipe__card">
+                                <div class="equipe__card-number">Bonnissant Jean-Baptiste</div>
+                                <h3 class="equipe__card-title">Equipe de communication</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="clients section container">
+                    <h2 class="clients__title section__subtitle">Nos avis clients</h2>
+                    <div class="clients__container container swiper mySwiper">   
+                        <div class="swiper-wrapper">
+                            <div class="clients__card swiper-slide">
+                                <img src="assets/img/card1.png" class="clients__img" alt="">
+                                <h3 class="clients__name"> Joe Dalton</h3>
+                                <p class="clients_description">
+                                    J'aime bien
+                                </p>
+                            </div>
+
+                            <div class="clients__card swiper-slide">
+                                <img src="assets/img/card2.png" class="clients__img" alt="">
+                                <h3 class="clients__name"> Joe Dalton2</h3>
+                                <p class="clients_description">
+                                    J'aime beaucoup
+                                </p>
+                            </div>
+
+                            <div class="clients__card swiper-slide">
+                                <img src="assets/img/card3.png" class="clients__img" alt="">
+                                <h3 class="clients__name"> Joe Dalton3</h3>
+                                <p class="clients_description">
+                                    J'aime un peu
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                </section>
+
+            </section>
+
+            <!--==================== PRODUITS ====================-->
+
+            <section class="shop section" id="products">
+                <h2 class="shop_first__title">Nos Produits</h2>
+
+                <div class="shop__filters">
+                    <span class="shop__item active-shop" data-filter='all'>All</span>
+                    <span class="shop__item" data-filter='.fleurs'>Fleurs CBD</span>
+                    <span class="shop__item" data-filter='.infusions'>Infusions</span>
+                    <span class="shop__item" data-filter='.huiles'>Huiles CBD</span>
+                </div>
+
+                <div class="shop__bg">
+                    <div class="shop__container container grid">
+                        <div class="shop__card mix fleurs">
+                            <img src="assets/img/Lemon_Haze.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Super Lemon Haze <i class='bx bx-right-arrow-alt shop__icon'></i>
+                            </a>
+                        </div>
+                        <div class="shop__card mix fleurs">
+                            <img src="assets/img/Gorilla_Glue.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Gorilla Glue <i class='bx bx-right-arrow-alt shop__icon'></i>
+                            </a>
+                        </div>
+                        <div class="shop__card mix fleurs">
+                            <img src="assets/img/Sour_Diesel.png"shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Sour Diesel <i class='bx bx-right-arrow-alt shop__icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="shop__card mix infusions">
+                            <img src="assets/img/Nuit_Etoilee.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Nuit Etoilée
+                            </a>
+                        </div>
+                        <div class="shop__card mix infusions">
+                            <img src="assets/img/Ayurvedic_Detox.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Ayurvedic Detox
+                            </a>
+                        </div>
+                        <div class="shop__card mix infusions">
+                            <img src="assets/img/Hiver_Paisible.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Hiver Paisible
+                            </a>
+                        </div>
+
+                        <div class="shop__card mix huiles">
+                            <img src="assets/img/Alliance.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Alliance
+                            </a>
+                        </div>
+                        <div class="shop__card mix huiles">
+                            <img src="assets/img/Fruits-rouges.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Fruits Rouges
+                            </a>
+                        </div>
+                        <div class="shop__card mix huiles">
+                            <img src="assets/img/Zen.png" alt="" class="shop__img">
+                            <h3 class="shop__title"></h3>
+                            <a href="#products" class="shop__button">
+                                Zen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CLIENTS ====================-->
+            <section class="questions section" id="partner">
+                <h2 class="section__title-center questions__title container">
+                    Nos Partenaires
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    IUT de St-Malo
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    <a href="https://iut-stmalo.univ-rennes1.fr/" target="_blank">
+                                    <img src="assets/img/iut.png">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    La ville de St Malo
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    <a href="https://www.ville-saint-malo.fr/" target="_blank">
+                                    <img src="assets/img/saint-malo.jpg">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Le comptoir
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    <a href="https://www.lecomptoirvinsbieres.fr/" target="_blank">
+                                    <img src="assets/img/comptoir.png">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pharmacie de la Croix Desilles
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    <a href="https://www.pharmanity.com/pharmacie/pharmacie-de-la-croix-desilles-saint-malo-ph4622" target="_blank">
+                                    <img src="assets/img/pharmacie.jpg">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Contactez-nous maintenant <br>via ce formulaire
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Appelez-nous pour une assistance</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +33 06 .. .. .. ..
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Ecrivez-nous un mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    contact@cbdmalo.fr
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="form_contact.php" class="contact__form" method="post">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input name="nom" type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Nom</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input name="prenom" type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Prénom</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input name="email" type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input name="tel" type="text" placeholder=" " pattern="[0-9]" class="contact__input">
+                                <label for="" class="contact__label">Numéro de téléphone</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Envoyer
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> CBD Malo
+                    </a>
+
+                    <br>
+                    <button class="button button--flex footer__button">   
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                        <a class="footer__social-link" href="../Intra/conn/connexion.php" target="_blank">Liens vers notre intranet</a>
+                    </button>
+
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Notre addresse</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">IUT de St Malo</li>
+                        <li class="footer__information">40 Rue de la Croix Desilles</li>
+                        <li class="footer__information">35400 Saint-Malo</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contactez nous</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+33 06 .. .. .. ..</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Nous acceptons tous ces moyens de paiements
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Inspiré de Bedimcode.</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MIXITUP REVEAL ===============-->
+        <script src="assets/js/mixitup.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+    </body>
+</html>
